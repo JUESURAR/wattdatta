@@ -5,7 +5,7 @@ import streamlit as st
 util.generarMenu()
 
 st.title('Vehículos Eléctricos')
-df1 = pd.read_csv('C:\\Users\\Est01\\Desktop\\Juan\\AnalisisIntegradorStreamlit\\data\\Numero_de_Vehiculos_Electricos_Hibridos_20250217.csv')
+df1 = pd.read_csv('data/Numero_de_Vehiculos_Electricos_Hibridos_20250217.csv')
 
 util.modelo_Veh_Ele(df1)
 
